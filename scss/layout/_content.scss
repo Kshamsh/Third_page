@@ -1,5 +1,6 @@
 body{
     background-color: $body-bg-color;
+    overflow-x: hidden;
 }
 .main-content {
     padding-top: 80px;
@@ -83,4 +84,11 @@ body{
   }
   .search-form{
     width: 350px;
+  }
+  .podcast-title{
+      font-size: 22px;
+      padding: 25px 0;
+  }
+  @media(max-width:1400px){
+      
   }
