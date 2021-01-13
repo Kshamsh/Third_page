@@ -1,6 +1,5 @@
 body{
     background-color: $body-bg-color;
-    overflow-x: hidden;
 }
 .main-content {
     padding-top: 80px;
@@ -9,8 +8,8 @@ body{
     z-index: 1;
     margin: 0px auto;
     background-color: $content-bg-color;
-    padding-left: 60px;
-    padding-right: 60px;
+    // padding-left: 60px;
+    // padding-right: 60px;
     font-family: $main-content-font;
     
   }
@@ -89,6 +88,74 @@ body{
       font-size: 22px;
       padding: 25px 0;
   }
-  @media(max-width:1400px){
+  // @media(max-width:1400px){
       
+  // }
+  @media (max-width: 1014px) {
+    .links-row {
+      display: flex;
+      justify-content: center;
+    }
+    .content-box {
+      padding: 0 5px;
+    }
+  }
+  @media (max-width: 644px) {
+    .main-header {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+   
+    .input-form{
+      width: 200px;
+      height: 25px;
+    }
+  }
+  @media (max-width: 510px) {
+    .main-content {
+      padding: 0;
+    }
+    .main-header {
+      font-size: 30px;
+      padding-top: 90px;
+    }
+    .input-form{
+      width: 200px;
+      height: 25px;
+    }
+  }
+  @media (max-width: 375px) {
+    .content-box {
+      padding-left: 15px;
+    }
+    .main-header {
+      font-size: 20px;
+      padding-top: 55px;
+    }
+    .content-title {
+      padding-left: 70px;
+    }
+    .main-content {
+      padding: 0;
+    }
+    .short-title {
+      padding-left: 110px;
+    }
+    .nav-forms {
+      padding: 20px;
+    }
+    .input-form {
+      width: 150px;
+      height: 20px;
+    }
+    .podcast-title{
+      font-size: 18px;
+      // padding-left: 25px;
+    }
+    .short-1{
+      padding-left: 93px;
+    }
+    .short-2{
+      padding-left: 120px;
+    }
   }
